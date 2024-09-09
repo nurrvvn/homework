@@ -1,0 +1,120 @@
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: beige;
+}
+
+h1{
+    border : #390d02;
+}
+p{
+    font-weight: bold;
+    color: brown;
+}
+
+img{
+    border: 5px solid color rgb(10, 58, 10)
+    border-radius: 50px;
+}
+
+h1{
+    color: #390d02af;
+    text-align: center;
+}
+
+h2{
+    color: #390d02b7;
+    text-align: center;
+}
+
+img {
+    max-width: 90%;
+    height: auto;
+  }
+
+  img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+  }
+  h4{
+    text-decoration-line: underline; 
+    text-decoration-color: rgb(63, 22, 12);  
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    color: #390d02;
+  }
+
+  ul{
+    display: flex;
+  }
+
+  ul li{
+    list-style: none;
+    padding: 0 15px;
+    cursor: pointer;
+    -webkit-text-stroke-color: rgb(48, 25, 14);
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 0.06em;
+    font-size: 20px;
+    font-weight: bolder;
+    background-clip: text;
+    -webkit-background-clip: text;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(135deg,rgb(63, 26, 13) 0%, rgb(52, 33, 19) 50%, transparent 50% );
+    background-size: 0 100%;
+    -webkit-background-size: 0 100%;
+    transition: background-size 0.5s cubic-bezier(0.67, 0.01, 0.15, 0.98);
+}
+
+ul li:hover{
+    background-size: 200% 100%; 
+    -webkit-background-size: 200% 100%;
+}
+
+video {
+    width: 50%;
+    height: auto;
+    border-radius:50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+  }
+
+  h3{
+    text-align: center;
+    a:visited{
+        color:#390d02;
+    }
+  }
+
+  h3 a{
+        color:rgb(65, 40, 15);
+    }
+    
+    h3 a:hover{
+        font-weight: bold;
+    }
+    
+    h3 a:active{
+        color: rgb(89, 50, 28);
+    }
+    
+    h3 a:focus{
+        background: rgb(234, 223, 185)
+    }
+}
+
+details{
+    color: #390d02;
+}
+
+summary strong{
+    color: #442608;
+}
+
+h1 strong{
+    color: bisque;
+}
